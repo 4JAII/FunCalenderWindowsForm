@@ -30,6 +30,16 @@
         {
             this.day = new System.Windows.Forms.Label();
             this.prev = new System.Windows.Forms.Button();
+            this.AccountsPage = new System.Windows.Forms.TabPage();
+            this.WishListPage = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.MainTab = new System.Windows.Forms.TabControl();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.AccountsPage.SuspendLayout();
+            this.WishListPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.MainTab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // day
@@ -52,15 +62,71 @@
             this.prev.UseVisualStyleBackColor = true;
             this.prev.Click += new System.EventHandler(this.prev_Click);
             // 
+            // AccountsPage
+            // 
+            this.AccountsPage.Controls.Add(this.dataGridView2);
+            this.AccountsPage.Location = new System.Drawing.Point(4, 22);
+            this.AccountsPage.Name = "AccountsPage";
+            this.AccountsPage.Padding = new System.Windows.Forms.Padding(3);
+            this.AccountsPage.Size = new System.Drawing.Size(586, 473);
+            this.AccountsPage.TabIndex = 1;
+            this.AccountsPage.Text = "Accounts";
+            this.AccountsPage.UseVisualStyleBackColor = true;
+            // 
+            // WishListPage
+            // 
+            this.WishListPage.Controls.Add(this.dataGridView1);
+            this.WishListPage.Location = new System.Drawing.Point(4, 22);
+            this.WishListPage.Name = "WishListPage";
+            this.WishListPage.Padding = new System.Windows.Forms.Padding(3);
+            this.WishListPage.Size = new System.Drawing.Size(586, 473);
+            this.WishListPage.TabIndex = 0;
+            this.WishListPage.Text = "WishList";
+            this.WishListPage.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 21;
+            this.dataGridView1.Size = new System.Drawing.Size(585, 476);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // MainTab
+            // 
+            this.MainTab.Controls.Add(this.WishListPage);
+            this.MainTab.Controls.Add(this.AccountsPage);
+            this.MainTab.Location = new System.Drawing.Point(3, 98);
+            this.MainTab.Name = "MainTab";
+            this.MainTab.SelectedIndex = 0;
+            this.MainTab.Size = new System.Drawing.Size(594, 499);
+            this.MainTab.TabIndex = 2;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowTemplate.Height = 21;
+            this.dataGridView2.Size = new System.Drawing.Size(586, 473);
+            this.dataGridView2.TabIndex = 0;
+            // 
             // DayList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.MainTab);
             this.Controls.Add(this.prev);
             this.Controls.Add(this.day);
             this.MinimumSize = new System.Drawing.Size(600, 600);
             this.Name = "DayList";
             this.Size = new System.Drawing.Size(600, 600);
+            this.AccountsPage.ResumeLayout(false);
+            this.WishListPage.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.MainTab.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -70,5 +136,10 @@
 
         private System.Windows.Forms.Label day;
         private System.Windows.Forms.Button prev;
+        private System.Windows.Forms.TabPage AccountsPage;
+        private System.Windows.Forms.TabPage WishListPage;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TabControl MainTab;
+        private System.Windows.Forms.DataGridView dataGridView2;
     }
 }

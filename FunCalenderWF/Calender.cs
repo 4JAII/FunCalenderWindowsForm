@@ -20,12 +20,6 @@ namespace FunCalenderWF
             InitializeComponent();
         }
 
-        public Calender(int y,int m,int d)
-        {
-            this.y = y;this.m = m;this.d = d;
-            InitializeComponent();
-        }
-
         private void Next_Click(object sender, EventArgs e)
         {
             m++;
@@ -104,8 +98,10 @@ namespace FunCalenderWF
 
         private void DayLabel_Click(object sender, EventArgs e)
         {
-            Controls.Clear();
-            Controls.Add(new DayList(y,m,int.Parse(((Label)sender).Text)));
+            
+            MainForm.MyCalender.Visible = false;
+            MainForm.MyDayList.Visible = true;        
+            MainForm.MyDayList.SetDate(y,m,int.Parse(((Label)sender).Text));
         }
 
     }

@@ -77,7 +77,6 @@
             this.day40 = new System.Windows.Forms.Label();
             this.day41 = new System.Windows.Forms.Label();
             this.day42 = new System.Windows.Forms.Label();
-            this.Selectday = new System.Windows.Forms.DateTimePicker();
             this.monthlen.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -149,7 +148,7 @@
             this.monthlen.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 49F));
             this.monthlen.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 45F));
             this.monthlen.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 49F));
-            this.monthlen.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 66F));
+            this.monthlen.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
             this.monthlen.Controls.Add(this.day1, 0, 0);
             this.monthlen.Controls.Add(this.day2, 1, 0);
             this.monthlen.Controls.Add(this.day3, 2, 0);
@@ -214,7 +213,7 @@
             this.day1.Cursor = System.Windows.Forms.Cursors.Default;
             this.day1.Location = new System.Drawing.Point(6, 3);
             this.day1.Name = "day1";
-            this.day1.Size = new System.Drawing.Size(41, 62);
+            this.day1.Size = new System.Drawing.Size(39, 62);
             this.day1.TabIndex = 0;
             this.day1.Text = "1";
             // 
@@ -224,9 +223,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day2.AutoSize = true;
-            this.day2.Location = new System.Drawing.Point(56, 3);
+            this.day2.Location = new System.Drawing.Point(54, 3);
             this.day2.Name = "day2";
-            this.day2.Size = new System.Drawing.Size(39, 62);
+            this.day2.Size = new System.Drawing.Size(37, 62);
             this.day2.TabIndex = 1;
             this.day2.Text = "2";
             // 
@@ -236,7 +235,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day3.AutoSize = true;
-            this.day3.Location = new System.Drawing.Point(104, 3);
+            this.day3.Location = new System.Drawing.Point(100, 3);
             this.day3.Name = "day3";
             this.day3.Size = new System.Drawing.Size(43, 62);
             this.day3.TabIndex = 2;
@@ -248,7 +247,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day4.AutoSize = true;
-            this.day4.Location = new System.Drawing.Point(156, 3);
+            this.day4.Location = new System.Drawing.Point(152, 3);
             this.day4.Name = "day4";
             this.day4.Size = new System.Drawing.Size(43, 62);
             this.day4.TabIndex = 3;
@@ -260,7 +259,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day5.AutoSize = true;
-            this.day5.Location = new System.Drawing.Point(208, 3);
+            this.day5.Location = new System.Drawing.Point(204, 3);
             this.day5.Name = "day5";
             this.day5.Size = new System.Drawing.Size(39, 62);
             this.day5.TabIndex = 4;
@@ -272,7 +271,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day6.AutoSize = true;
-            this.day6.Location = new System.Drawing.Point(256, 3);
+            this.day6.Location = new System.Drawing.Point(252, 3);
             this.day6.Name = "day6";
             this.day6.Size = new System.Drawing.Size(43, 62);
             this.day6.TabIndex = 5;
@@ -284,9 +283,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day7.AutoSize = true;
-            this.day7.Location = new System.Drawing.Point(308, 3);
+            this.day7.Location = new System.Drawing.Point(304, 3);
             this.day7.Name = "day7";
-            this.day7.Size = new System.Drawing.Size(61, 62);
+            this.day7.Size = new System.Drawing.Size(65, 62);
             this.day7.TabIndex = 6;
             this.day7.Text = "7";
             // 
@@ -298,7 +297,7 @@
             this.day8.AutoSize = true;
             this.day8.Location = new System.Drawing.Point(6, 68);
             this.day8.Name = "day8";
-            this.day8.Size = new System.Drawing.Size(41, 63);
+            this.day8.Size = new System.Drawing.Size(39, 63);
             this.day8.TabIndex = 7;
             this.day8.Text = "8";
             // 
@@ -308,9 +307,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day9.AutoSize = true;
-            this.day9.Location = new System.Drawing.Point(56, 68);
+            this.day9.Location = new System.Drawing.Point(54, 68);
             this.day9.Name = "day9";
-            this.day9.Size = new System.Drawing.Size(39, 63);
+            this.day9.Size = new System.Drawing.Size(37, 63);
             this.day9.TabIndex = 8;
             this.day9.Text = "9";
             // 
@@ -320,7 +319,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day10.AutoSize = true;
-            this.day10.Location = new System.Drawing.Point(104, 68);
+            this.day10.Location = new System.Drawing.Point(100, 68);
             this.day10.Name = "day10";
             this.day10.Size = new System.Drawing.Size(43, 63);
             this.day10.TabIndex = 9;
@@ -332,7 +331,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day11.AutoSize = true;
-            this.day11.Location = new System.Drawing.Point(156, 68);
+            this.day11.Location = new System.Drawing.Point(152, 68);
             this.day11.Name = "day11";
             this.day11.Size = new System.Drawing.Size(43, 63);
             this.day11.TabIndex = 10;
@@ -344,7 +343,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day12.AutoSize = true;
-            this.day12.Location = new System.Drawing.Point(208, 68);
+            this.day12.Location = new System.Drawing.Point(204, 68);
             this.day12.Name = "day12";
             this.day12.Size = new System.Drawing.Size(39, 63);
             this.day12.TabIndex = 11;
@@ -356,7 +355,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day13.AutoSize = true;
-            this.day13.Location = new System.Drawing.Point(256, 68);
+            this.day13.Location = new System.Drawing.Point(252, 68);
             this.day13.Name = "day13";
             this.day13.Size = new System.Drawing.Size(43, 63);
             this.day13.TabIndex = 12;
@@ -368,9 +367,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day14.AutoSize = true;
-            this.day14.Location = new System.Drawing.Point(308, 68);
+            this.day14.Location = new System.Drawing.Point(304, 68);
             this.day14.Name = "day14";
-            this.day14.Size = new System.Drawing.Size(61, 63);
+            this.day14.Size = new System.Drawing.Size(65, 63);
             this.day14.TabIndex = 13;
             this.day14.Text = "14";
             // 
@@ -382,7 +381,7 @@
             this.day15.AutoSize = true;
             this.day15.Location = new System.Drawing.Point(6, 134);
             this.day15.Name = "day15";
-            this.day15.Size = new System.Drawing.Size(41, 64);
+            this.day15.Size = new System.Drawing.Size(39, 64);
             this.day15.TabIndex = 14;
             this.day15.Text = "15";
             // 
@@ -392,9 +391,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day16.AutoSize = true;
-            this.day16.Location = new System.Drawing.Point(56, 134);
+            this.day16.Location = new System.Drawing.Point(54, 134);
             this.day16.Name = "day16";
-            this.day16.Size = new System.Drawing.Size(39, 64);
+            this.day16.Size = new System.Drawing.Size(37, 64);
             this.day16.TabIndex = 15;
             this.day16.Text = "16";
             // 
@@ -404,7 +403,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day17.AutoSize = true;
-            this.day17.Location = new System.Drawing.Point(104, 134);
+            this.day17.Location = new System.Drawing.Point(100, 134);
             this.day17.Name = "day17";
             this.day17.Size = new System.Drawing.Size(43, 64);
             this.day17.TabIndex = 16;
@@ -416,7 +415,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day18.AutoSize = true;
-            this.day18.Location = new System.Drawing.Point(156, 134);
+            this.day18.Location = new System.Drawing.Point(152, 134);
             this.day18.Name = "day18";
             this.day18.Size = new System.Drawing.Size(43, 64);
             this.day18.TabIndex = 17;
@@ -428,7 +427,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day19.AutoSize = true;
-            this.day19.Location = new System.Drawing.Point(208, 134);
+            this.day19.Location = new System.Drawing.Point(204, 134);
             this.day19.Name = "day19";
             this.day19.Size = new System.Drawing.Size(39, 64);
             this.day19.TabIndex = 18;
@@ -440,7 +439,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day20.AutoSize = true;
-            this.day20.Location = new System.Drawing.Point(256, 134);
+            this.day20.Location = new System.Drawing.Point(252, 134);
             this.day20.Name = "day20";
             this.day20.Size = new System.Drawing.Size(43, 64);
             this.day20.TabIndex = 19;
@@ -452,9 +451,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day21.AutoSize = true;
-            this.day21.Location = new System.Drawing.Point(308, 134);
+            this.day21.Location = new System.Drawing.Point(304, 134);
             this.day21.Name = "day21";
-            this.day21.Size = new System.Drawing.Size(61, 64);
+            this.day21.Size = new System.Drawing.Size(65, 64);
             this.day21.TabIndex = 20;
             this.day21.Text = "21";
             // 
@@ -466,7 +465,7 @@
             this.day22.AutoSize = true;
             this.day22.Location = new System.Drawing.Point(6, 201);
             this.day22.Name = "day22";
-            this.day22.Size = new System.Drawing.Size(41, 65);
+            this.day22.Size = new System.Drawing.Size(39, 65);
             this.day22.TabIndex = 21;
             this.day22.Text = "22";
             // 
@@ -476,9 +475,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day23.AutoSize = true;
-            this.day23.Location = new System.Drawing.Point(56, 201);
+            this.day23.Location = new System.Drawing.Point(54, 201);
             this.day23.Name = "day23";
-            this.day23.Size = new System.Drawing.Size(39, 65);
+            this.day23.Size = new System.Drawing.Size(37, 65);
             this.day23.TabIndex = 22;
             this.day23.Text = "23";
             // 
@@ -488,7 +487,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day24.AutoSize = true;
-            this.day24.Location = new System.Drawing.Point(104, 201);
+            this.day24.Location = new System.Drawing.Point(100, 201);
             this.day24.Name = "day24";
             this.day24.Size = new System.Drawing.Size(43, 65);
             this.day24.TabIndex = 23;
@@ -500,7 +499,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day25.AutoSize = true;
-            this.day25.Location = new System.Drawing.Point(156, 201);
+            this.day25.Location = new System.Drawing.Point(152, 201);
             this.day25.Name = "day25";
             this.day25.Size = new System.Drawing.Size(43, 65);
             this.day25.TabIndex = 24;
@@ -512,7 +511,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day26.AutoSize = true;
-            this.day26.Location = new System.Drawing.Point(208, 201);
+            this.day26.Location = new System.Drawing.Point(204, 201);
             this.day26.Name = "day26";
             this.day26.Size = new System.Drawing.Size(39, 65);
             this.day26.TabIndex = 25;
@@ -524,7 +523,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day27.AutoSize = true;
-            this.day27.Location = new System.Drawing.Point(256, 201);
+            this.day27.Location = new System.Drawing.Point(252, 201);
             this.day27.Name = "day27";
             this.day27.Size = new System.Drawing.Size(43, 65);
             this.day27.TabIndex = 26;
@@ -536,9 +535,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day28.AutoSize = true;
-            this.day28.Location = new System.Drawing.Point(308, 201);
+            this.day28.Location = new System.Drawing.Point(304, 201);
             this.day28.Name = "day28";
-            this.day28.Size = new System.Drawing.Size(61, 65);
+            this.day28.Size = new System.Drawing.Size(65, 65);
             this.day28.TabIndex = 27;
             this.day28.Text = "28";
             // 
@@ -550,7 +549,7 @@
             this.day29.AutoSize = true;
             this.day29.Location = new System.Drawing.Point(6, 269);
             this.day29.Name = "day29";
-            this.day29.Size = new System.Drawing.Size(41, 68);
+            this.day29.Size = new System.Drawing.Size(39, 68);
             this.day29.TabIndex = 28;
             this.day29.Text = "29";
             // 
@@ -560,9 +559,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day30.AutoSize = true;
-            this.day30.Location = new System.Drawing.Point(56, 269);
+            this.day30.Location = new System.Drawing.Point(54, 269);
             this.day30.Name = "day30";
-            this.day30.Size = new System.Drawing.Size(39, 68);
+            this.day30.Size = new System.Drawing.Size(37, 68);
             this.day30.TabIndex = 29;
             this.day30.Text = "30";
             // 
@@ -572,7 +571,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day31.AutoSize = true;
-            this.day31.Location = new System.Drawing.Point(104, 269);
+            this.day31.Location = new System.Drawing.Point(100, 269);
             this.day31.Name = "day31";
             this.day31.Size = new System.Drawing.Size(43, 68);
             this.day31.TabIndex = 30;
@@ -584,7 +583,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day32.AutoSize = true;
-            this.day32.Location = new System.Drawing.Point(156, 269);
+            this.day32.Location = new System.Drawing.Point(152, 269);
             this.day32.Name = "day32";
             this.day32.Size = new System.Drawing.Size(43, 68);
             this.day32.TabIndex = 31;
@@ -596,7 +595,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day33.AutoSize = true;
-            this.day33.Location = new System.Drawing.Point(208, 269);
+            this.day33.Location = new System.Drawing.Point(204, 269);
             this.day33.Name = "day33";
             this.day33.Size = new System.Drawing.Size(39, 68);
             this.day33.TabIndex = 32;
@@ -608,7 +607,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day34.AutoSize = true;
-            this.day34.Location = new System.Drawing.Point(256, 269);
+            this.day34.Location = new System.Drawing.Point(252, 269);
             this.day34.Name = "day34";
             this.day34.Size = new System.Drawing.Size(43, 68);
             this.day34.TabIndex = 33;
@@ -620,9 +619,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day35.AutoSize = true;
-            this.day35.Location = new System.Drawing.Point(308, 269);
+            this.day35.Location = new System.Drawing.Point(304, 269);
             this.day35.Name = "day35";
-            this.day35.Size = new System.Drawing.Size(61, 68);
+            this.day35.Size = new System.Drawing.Size(65, 68);
             this.day35.TabIndex = 34;
             this.day35.Text = "35";
             // 
@@ -633,7 +632,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day36.Location = new System.Drawing.Point(6, 340);
             this.day36.Name = "day36";
-            this.day36.Size = new System.Drawing.Size(41, 55);
+            this.day36.Size = new System.Drawing.Size(39, 55);
             this.day36.TabIndex = 0;
             this.day36.Text = "36";
             // 
@@ -643,9 +642,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day37.AutoSize = true;
-            this.day37.Location = new System.Drawing.Point(56, 340);
+            this.day37.Location = new System.Drawing.Point(54, 340);
             this.day37.Name = "day37";
-            this.day37.Size = new System.Drawing.Size(39, 55);
+            this.day37.Size = new System.Drawing.Size(37, 55);
             this.day37.TabIndex = 35;
             this.day37.Text = "37";
             // 
@@ -655,7 +654,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day38.AutoSize = true;
-            this.day38.Location = new System.Drawing.Point(104, 340);
+            this.day38.Location = new System.Drawing.Point(100, 340);
             this.day38.Name = "day38";
             this.day38.Size = new System.Drawing.Size(43, 55);
             this.day38.TabIndex = 36;
@@ -667,7 +666,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day39.AutoSize = true;
-            this.day39.Location = new System.Drawing.Point(156, 340);
+            this.day39.Location = new System.Drawing.Point(152, 340);
             this.day39.Name = "day39";
             this.day39.Size = new System.Drawing.Size(43, 55);
             this.day39.TabIndex = 37;
@@ -679,7 +678,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day40.AutoSize = true;
-            this.day40.Location = new System.Drawing.Point(208, 340);
+            this.day40.Location = new System.Drawing.Point(204, 340);
             this.day40.Name = "day40";
             this.day40.Size = new System.Drawing.Size(39, 55);
             this.day40.TabIndex = 38;
@@ -691,7 +690,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day41.AutoSize = true;
-            this.day41.Location = new System.Drawing.Point(256, 340);
+            this.day41.Location = new System.Drawing.Point(252, 340);
             this.day41.Name = "day41";
             this.day41.Size = new System.Drawing.Size(43, 55);
             this.day41.TabIndex = 39;
@@ -703,24 +702,16 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.day42.AutoSize = true;
-            this.day42.Location = new System.Drawing.Point(308, 340);
+            this.day42.Location = new System.Drawing.Point(304, 340);
             this.day42.Name = "day42";
-            this.day42.Size = new System.Drawing.Size(61, 55);
+            this.day42.Size = new System.Drawing.Size(65, 55);
             this.day42.TabIndex = 40;
             this.day42.Text = "42";
-            // 
-            // Selectday
-            // 
-            this.Selectday.Location = new System.Drawing.Point(454, 78);
-            this.Selectday.Name = "Selectday";
-            this.Selectday.Size = new System.Drawing.Size(117, 19);
-            this.Selectday.TabIndex = 7;
             // 
             // Calender
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.Selectday);
             this.Controls.Add(this.YearMonth);
             this.Controls.Add(this.Next);
             this.Controls.Add(this.Prev);
@@ -790,6 +781,5 @@
         private System.Windows.Forms.Label day40;
         private System.Windows.Forms.Label day41;
         private System.Windows.Forms.Label day42;
-        private System.Windows.Forms.DateTimePicker Selectday;
     }
 }

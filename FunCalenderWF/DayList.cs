@@ -13,6 +13,7 @@ namespace FunCalenderWF
     public partial class DayList : UserControl
     {
         int y, m, d;
+        public static List<WishListTable> AllWishList = new List<WishListTable>();
 
         public DayList()
         {
@@ -33,5 +34,11 @@ namespace FunCalenderWF
             MainForm.MyDayList.Visible = false;
             
         }
+
+        private void DayList_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

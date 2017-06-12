@@ -45,11 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DayList.cs">
+    <Compile Include="ListDay.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="DayList.Designer.cs">
-      <DependentUpon>DayList.cs</DependentUpon>
+    <Compile Include="ListDay.Designer.cs">
+      <DependentUpon>ListDay.cs</DependentUpon>
     </Compile>
     <Compile Include="StartForm.cs">
       <SubType>Form</SubType>
@@ -65,8 +65,9 @@
     <Compile Include="Calender.Designer.cs">
       <DependentUpon>Calender.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="DayList.resx">
-      <DependentUpon>DayList.cs</DependentUpon>
+    <Compile Include="Tables.cs" />
+    <EmbeddedResource Include="ListDay.resx">
+      <DependentUpon>ListDay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StartForm.resx">
       <DependentUpon>StartForm.cs</DependentUpon>

@@ -8,7 +8,7 @@ D:\CS\FunCalenderWF\FunCalenderWF\bin\Debug\FunCalenderWF.exe
 D:\CS\FunCalenderWF\FunCalenderWF\bin\Debug\FunCalenderWF.pdb
 D:\CS\FunCalenderWF\FunCalenderWF\obj\Debug\FunCalenderWF.exe
 D:\CS\FunCalenderWF\FunCalenderWF\obj\Debug\FunCalenderWF.pdb
-D:\CS\FunCalenderWF\FunCalenderWF\obj\Debug\FunCalenderWF.DayList.resources
 C:\Users\j14301\Desktop\FunCalender\FunCalenderWF\bin\Debug\FunCalenderWF.exe.config
 C:\Users\j14301\Desktop\FunCalender\FunCalenderWF\obj\Debug\FunCalenderWF.exe
 C:\Users\j14301\Desktop\FunCalender\FunCalenderWF\obj\Debug\FunCalenderWF.pdb
+D:\CS\FunCalenderWF\FunCalenderWF\obj\Debug\FunCalenderWF.ListDay.resources

@@ -13,7 +13,7 @@ namespace FunCalenderWF
     public partial class MainForm : Form
     {
         public static Calender MyCalender;
-        public static DayList MyDayList;
+        public static ListDay MyDayList;
 
         public MainForm()
         {
@@ -28,7 +28,7 @@ namespace FunCalenderWF
         private void Start_Click(object sender, EventArgs e)
         {
             MyCalender = new Calender();
-            MyDayList = new DayList();
+            MyDayList = new ListDay();
             MainPanel.Controls.Add(MyCalender);
             MainPanel.Controls.Add(MyDayList);
             Start.Dispose();

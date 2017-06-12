@@ -1,6 +1,6 @@
 ﻿namespace FunCalenderWF
 {
-    partial class DayList
+    partial class ListDay
     {
         /// <summary> 
         /// 必要なデザイナー変数です。
@@ -33,12 +33,12 @@
             this.AccountsPage = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.WishListPage = new System.Windows.Forms.TabPage();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.WishListGrid = new System.Windows.Forms.DataGridView();
             this.MainTab = new System.Windows.Forms.TabControl();
             this.AccountsPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.WishListPage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.WishListGrid)).BeginInit();
             this.MainTab.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,7 +84,7 @@
             // 
             // WishListPage
             // 
-            this.WishListPage.Controls.Add(this.dataGridView1);
+            this.WishListPage.Controls.Add(this.WishListGrid);
             this.WishListPage.Location = new System.Drawing.Point(4, 22);
             this.WishListPage.Name = "WishListPage";
             this.WishListPage.Padding = new System.Windows.Forms.Padding(3);
@@ -93,14 +93,14 @@
             this.WishListPage.Text = "WishList";
             this.WishListPage.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // WishListGrid
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 21;
-            this.dataGridView1.Size = new System.Drawing.Size(585, 476);
-            this.dataGridView1.TabIndex = 0;
+            this.WishListGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.WishListGrid.Location = new System.Drawing.Point(0, 0);
+            this.WishListGrid.Name = "WishListGrid";
+            this.WishListGrid.RowTemplate.Height = 21;
+            this.WishListGrid.Size = new System.Drawing.Size(585, 476);
+            this.WishListGrid.TabIndex = 0;
             // 
             // MainTab
             // 
@@ -126,7 +126,7 @@
             this.AccountsPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.WishListPage.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.WishListGrid)).EndInit();
             this.MainTab.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -139,7 +139,7 @@
         private System.Windows.Forms.Button prev;
         private System.Windows.Forms.TabPage AccountsPage;
         private System.Windows.Forms.TabPage WishListPage;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView WishListGrid;
         private System.Windows.Forms.TabControl MainTab;
         private System.Windows.Forms.DataGridView dataGridView2;
     }
